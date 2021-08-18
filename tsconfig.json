@@ -1,0 +1,14 @@
+// @tsconfig/recommended
+{
+  "compilerOptions": {
+    "target": "ES2015", // ES6
+    "lib" : ["ES2015", "DOM"]
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+    "resolveJsonModule": true, // @tsconfig/deno
+  },
+  "$schema": "https://json.schemastore.org/tsconfig",
+}
