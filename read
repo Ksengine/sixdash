@@ -1,0 +1,4 @@
+find js/ -type f \
+    -name "*.js" ! -name "*.min.*" ! -name "vfs_fonts*" \
+    -exec echo {} \; \
+    -exec uglifyjs -o {}.min {} \;
